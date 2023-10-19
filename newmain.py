@@ -14,9 +14,9 @@ import asyncio
 #تخمط تثبت فشلك 
 
 
-api_id = "API_ID" #ايبي ايدي
-api_hash = "API_HASH" #ايبي هاش 
-bot = "TOKEN_BOT" #توكن البوت
+api_id = "21008736" #ايبي ايدي
+api_hash = "0958c7060d8f14e3d96e75b805d70071" #ايبي هاش 
+bot = "6857957777:AAHGTB1m1-KU3jvHFtpgARclskuipQQ_Zdg" #توكن البوت
 
 alEx = TelegramClient("bot", api_id, api_hash).start(bot_token=bot)
 @alEx.on(events.NewMessage(pattern=r"^/start$"))
